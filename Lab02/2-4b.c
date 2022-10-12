@@ -3,8 +3,8 @@
 
 int multiplication(int n){
     if(n<1) return 0;
-    else if(n = 1) return 1;
-    else if(n = 2) return 2;
+    else if(n == 1) return 1;
+    else if(n == 2) return 2;
     else return n*mul(n-2);
     
 }
